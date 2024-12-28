@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/estilos.css">
+    <script src="https://kit.fontawesome.com/eace31ecd5.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Pre entrega</title>
+</head>
+<body class="contenedor_body">
+    <header class="contenedor_header ">
+        <img src="img/ejerc1.png" class="imgheader"alt="logo">
+        <h1 class="itemheader">Deportivos</h1>
+        <img src="img/ejerc1.png" class="imgheader"alt="logo">
+        
+        <nav class="contenedor_nav ">
+          <button class="itemnav"><a href="productos.html">Productos</a></button>
+          <button class="itemnav"><a href="ubicacion.html">Ubicación</a></button>
+          <button class="itemnav"><a href="masinfo.html">Mas info..</a></button>
+        </nav>
+    </header>
+    <aside class="hijo3_grid">
+      <form action="https://formspree.io/f/myzyjvpj" method="POST"">
+        <fieldset>
+          <label for="">Ingreso usuario</label><br>
+          <input type="email"placeholder="Correo"  name="mail" id="">
+          <input type="password" placeholder="Contraseña" name="pass" id="">
+          <button type="submit">Ingresar</button>
+        </fieldset>
+      </form>
+        <form action="https://formspree.io/f/myzyjvpj"method="POST">
+          <label for=""><h5>¿Queres mejorar tu calidad de vida?</h5></label>
+          <fieldset>
+            <label for="">Dejanos tus datos para brindarte asesoramiento:</label><br>
+            <input type="text" placeholder="Nombre" name="nombre" id="">
+            <input type="text" placeholder="Apellido" name="apellido" id="">
+            <label for="">Genero:</label><br>
+            <select name="genero" id="">
+              <option value="f">Femenino</option>
+              <option value="m">Masculino</option>
+              <option value="o">Prefiero no decirlo</option>
+            </select><br>
+            <label for="">Dejanos un comentario:</label><br>
+            <textarea name="mensaje" id="" cols="20" rows="5"></textarea><br>
+            <button type="submit">Enviar</button>
+          </fieldset>
+          
+        </form>
+    </aside>
+    <main >
+        <article>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item  active">
+                <img src="img/tienda1.jpeg" class="d-line altura " alt="tienda">
+                <img src="img/tienda2.jpeg"  class="d-line altura" alt="tienda">
+              </div>
+              <div class="carousel-item ">
+                <img src="img/tienda2.jpeg"  class="d-line altura" alt="tienda">
+                <img src="img/tienda3.jpeg" class="d-line altura" alt="tienda">
+              </div>
+              <div class="carousel-item ">
+                <img src="img/tienda3.jpeg" class="d-line altura" alt="tienda">
+                <img src="img/tienda1.jpeg" class="d-line altura " alt="tienda">
+              </div>
+            </div>
+          </div>
+        </article>
+        <form class="d-flex mt-3" role="search">
+          <input class=" me-2" type="search" placeholder="¿que buscas?" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Buscar...</button>
+      </form>
+    </main>
+    <footer class="hijo5_grid">
+     
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
